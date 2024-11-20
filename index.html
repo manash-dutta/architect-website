@@ -3,7 +3,6 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!-- <link rel="stylesheet" href="reset.css" /> -->
     <link rel="stylesheet" href="style.css" />
     <link
       rel="stylesheet"
@@ -12,6 +11,11 @@
     <title>Architect</title>
   </head>
   <body>
+    <!-- Loading Spinner -->
+    <div class="loading-spinner" id="loading-spinner">
+      <img src="./assets/loading_spinner.svg" alt="Loading" />
+    </div>
+
     <div class="container">
       <div class="hamburger-menu">
         <div class="line line-1"></div>
@@ -239,11 +243,11 @@
           </div>
         </div>
       </footer>
-    </div>
 
-    <a href="#" class="scroll-btn">
-      <i class="fas fa-arrow-up"></i>
-    </a>
+      <a href="#" class="scroll-btn">
+        <i class="fas fa-arrow-up"></i>
+      </a>
+    </div>
 
     <script src="script.js"></script>
     <script
